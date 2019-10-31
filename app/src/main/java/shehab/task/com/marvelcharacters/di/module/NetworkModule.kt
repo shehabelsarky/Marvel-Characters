@@ -89,6 +89,7 @@ class NetworkModule {
             .addInterceptor { chain ->
                 val request = chain.request() //original request
                 val url = request.url().newBuilder() //modified url
+                        //add your api key and hash key
                     .addQueryParameter(timeStamp, TS)
                     .addQueryParameter(apiKey, API_KEY)
                     .addQueryParameter(hashKey, HASH_KEY)
