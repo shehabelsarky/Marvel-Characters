@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Marvel Characters</string>
+    <string name="api_no_data_response">No data in response.</string>
+    <string name="api_error_in_connecting_to_server">Error in connecting to the server.</string>
+    <string name="api_error_bad_response">Error in getting response</string>
+    <string name="api_error_time_out">Time out error.</string>
+    <string name="api_error_not_defined">An unexpected error happened!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="related_links">RELATED LINKS</string>
+    <string name="details">Details</string>
+    <string name="wiki">Wiki</string>
+    <string name="comics">Comics</string>
+    <string name="series">Series</string>
+    <string name="stories">Stories</string>
+    <string name="events">Events</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search...</string>
+    <string name="comiclink">Comiclink</string>
+</resources>
